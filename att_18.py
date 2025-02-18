@@ -8,7 +8,7 @@ for numero in range(1,11):
     if valor % 2 == 0:
         print(valor)
         soma = soma + valor
-    elif valor % 2 != 0:
+    else:
         print(valor)
         soma1 = soma1 + valor
 
