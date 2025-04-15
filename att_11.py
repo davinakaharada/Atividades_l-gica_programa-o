@@ -7,6 +7,19 @@
 #  4 Cheddar McMelt
 #  5 McMax
 
+# lanches = {
+#     '1' : 'Big Mac',
+#     '2' : 'Quarteirão',
+#     '3' : 'McChiken',
+#     '4' : 'Cheddar McMelt',
+#     '5' : 'McMax'
+# }
+
+# while True:
+#     numero = input('Digite o número do lanche: ')
+
+#     print(lanches[numero])
+
 lanches = {
     '1' : 'Big Mac',
     '2' : 'Quarteirão',
@@ -15,7 +28,6 @@ lanches = {
     '5' : 'McMax'
 }
 
-while True:
-    numero = input('Digite o número do lanche: ')
-
-    print(lanches[numero])
+def nome_lanches(numero):
+    return lanches[numero]
+print(nome_lanches('3'))

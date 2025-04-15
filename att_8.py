@@ -6,7 +6,7 @@
 # 18 a 59 adulto
 # maior de 60 especialista
 
-nome = input('DIgite o nome: ')
+nome = input('Digite o nome: ')
 idade = int(input('Digite a idade: '))
 
 if idade > 0 and idade < 12:
